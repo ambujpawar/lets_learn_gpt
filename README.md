@@ -1,2 +1,11 @@
 # lets_learn_gpt
-All the resources needed to learn GPT (transformers, Swin, ViT)
+
+Repository for teaching students Generative Language Modelling.
+
+Notebooks
+Answers
+Images
+
+
+Completely inspired from Andrej Karpathy's Youtube Series: 
+Neural Networks: Zero to Hero
