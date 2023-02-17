@@ -11,6 +11,6 @@ class Block(nn.Module):
         self.ln2 = nn.LayerNorm(n_embd)
 
     def forward(self, x):
-        x = x + self.sa(self.ln1(x))
-        x = x + self.ffwd(self.ln2(x))
+        x = self.sa(self.ln1(x))
+        x = self.ffwd(self.ln2(x))
         return x
